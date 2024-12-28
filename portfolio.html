@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Gaming Portfolio</title>
+   
+</head>
+<body>
+    <nav>
+        <a href="#biography">Biography</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div style="
+            float: left;
+            height: 30px;
+            width: 90px;
+            border: solid, red;
+            background-color: #fff;
+            text-align: center;
+            padding-top: 5px;
+            margin-left: 10%;
+            margin-top: 3%;
+    ">
+   <a href="index.php">BACK</a>
+    </div>
+
+    <div class="container">
+        <div id="biography" class="section biography">
+            <h2>About Me</h2>
+            <img src="pkk.jpg" alt="Your Name">
+
+        </div>
+        <h3>Hello! I'm Shihab PK, a passionate gaming developer
+            with a pretty much good coding skills.
+        I love to learn and explore new technologies to enhance my skills to Developed about new
+        games. I love to doing it, most of the free time I practice or learn about how to Develope
+        a good game. 
+        Let's connect and create something amazing together!</h3>
+        <br><br>
+
+        <h2 style="color: #00ff00">Skills:</h2>
+
+        <section id="skills" class="section skills">
+            <div class="item">
+                <h3>C++</h3>
+                <p>Proficient in creating semantic and accessible games.</p>
+            </div>
+            <div class="item">
+                <h3>HTML</h3>
+                <p>Experience in creating different web designing pages.</p>
+            </div>
+            <div class="item">
+                <h3>CSS</h3>
+                <p>Skilled in designing responsive and visually appealing layouts.</p>
+            </div>
+            <div class="item">
+                <h3>JavaScript</h3>
+                <p>Experience in adding interactivity and dynamic content to web pages.</p>
+            </div>
+            <div class="item">
+                <h3>SQL</h3>
+                <p>Developing and build a good database for gaming system</p>
+            </div>
+        </section>
+        
+        <h2 style="color: #00ff00">Experiences and Projects:</h2>
+
+        <section id="experience" class="section experience">
+            <div class="item">
+                <h3>HangMan Game</h3>
+                <p>1st gaming Project</p>
+                <br>
+                <p>Developed a game about people need to guess word to save a man.
+                   It is a very interesting game. </p>
+            </div>
+            <div class="item">
+                <h3>Rock Paper Scissor </h3>
+                
+                <p>Stone Paper Scissor or Rock Paper Scissor is a game that is played 
+                    between two people, Each player in this game forms one of three shapes</p>
+            </div>
+        </section>
+
+        <h2 style="color: #00ff00">Education:</h2>
+
+        <section id="education" class="section education">
+
+            <div class="item">
+                <h3>Bachelor's Degree in Computer Science</h3>
+                <p>University of Varendra, Rajshahi</p>
+            </div>
+            <div class="item">
+                <h3>High School </h3>
+                <p>Dupchiancha High School, Bogura</p>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact">
+            <h2>Contact</h2>
+            <p>To colab with me anytime at <a href="mailto: shihabkr9email@example.com">shihabkr9email@example.com</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 [Shihab PK].</p>
+    </footer>
+</body>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+    body {
+        font-family: 'Press Start 2P', cursive;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: gray;
+        color: #fff;
+    }
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px 0;
+        text-align: center;
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+        background-color: #222;
+    }
+    nav a {
+        color: #fff;
+        padding: 14px 20px;
+        text-decoration: none;
+        text-align: center;
+        transition: background-color 0.3s;
+    }
+    nav a:hover {
+        background-color: #444;
+        color: #00ff00;
+    }
+    .container {
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.8);
+        border-radius: 10px;
+    }
+    .section {
+        padding: 40px 0;
+    }
+    .section h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #00ff00;
+    }
+    .section p {
+        font-size: 1.2em;
+        margin: 0 auto;
+        max-width: 600px;
+    }
+    .biography img {
+        display: block;
+        margin: auto;
+        border-radius: 5%;
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border: 5px solid #00ff00;
+    }
+    .skills, .experience, .education {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .item {
+        background-color: #111;
+        margin: 10px;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        width: calc(33% - 40px);
+        box-sizing: border-box;
+        transition: transform 0.3s;
+    }
+    .item:hover {
+        transform: scale(1.05);
+    }
+    footer {
+        text-align: center;
+        padding: 20px 0;
+        background-color: #333;
+        color: #fff;
+    }
+</style>
+</html>
+
